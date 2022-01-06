@@ -56,9 +56,7 @@ const onInputValue = (e) => {
 
 }
 
-function onFetchCountries() {
-  
-}
+
 
 function onManySuitable() {
   Notify.info('Too many matches found. Please enter a more specific name.');
