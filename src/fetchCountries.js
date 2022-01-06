@@ -11,9 +11,8 @@ countryList: document.querySelector('.country-list')
 }
 
 const onInputValue = (e) => {
-  let x = ''
-  x = e.target.value
-  if (x === '') {
+ 
+  if ( e.target.value==='') {
     onCleanFindCountries()
     return
   }
