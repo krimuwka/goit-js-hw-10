@@ -17,7 +17,7 @@ const onInputValue = (e) => {
     return
   }
 
-  fetch(`https://restcountries.com/v3.1/name/${x.trim()}?fields=name,capital,population,flags,languages`)
+  fetch(`https://restcountries.com/v3.1/name/${e.target.value.trim()}?fields=name,capital,population,flags,languages`)
 
   .then(response => {
       return response.json()
