@@ -12,7 +12,7 @@ countryList: document.querySelector('.country-list')
 
 const onInputValue = (e) => {
  
-  if ( e.target.value==='') {
+  if (e.target.value === '') {
     onCleanFindCountries()
     return
   }
@@ -55,7 +55,9 @@ const onInputValue = (e) => {
 
 }
 
-
+function onFetchCountries() {
+  
+}
 
 function onManySuitable() {
   Notify.info('Too many matches found. Please enter a more specific name.');
